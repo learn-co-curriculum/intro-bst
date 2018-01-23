@@ -35,3 +35,14 @@ const addNode = (t, value) => {
     }
   }
 };
+
+const breadthPrintNodes = t => {
+  const children = [t.left, t.right];
+  console.log(t.value);
+  while (children.length) {
+    const next = children.shift();
+    console.log(next.value);
+    if (next.left) children.push(next.left);
+    if (next.right) children.push(next.right);
+  }
+};

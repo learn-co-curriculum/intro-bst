@@ -1,11 +1,11 @@
 ## Terminology
-Node
-Tree
-Subtree
-Child
-Parent
-Root
-Leaf
+* Node
+* Tree
+* Subtree
+* Child
+* Parent
+* Root
+* Leaf
 
 ## Rules
 - Recursive Branching Structure
